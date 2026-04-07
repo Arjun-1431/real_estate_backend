@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const mysql = require("mysql2/promise");
 
-const databaseName = process.env.MYSQL_DATABASE || "real_estate";
+const databaseName = process.env.MYSQL_DATABASE || "arjun_real_estate_objectnote";
 const sslEnabled = String(process.env.MYSQL_SSL || "true").toLowerCase() !== "false";
 
 function requireEnv(name) {
